@@ -1,0 +1,26 @@
+{
+  "name": "neuroplicity-static-archive",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=20 <25"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "crawl:wp": "bash scripts/crawl-neuroplicity.sh"
+  },
+  "dependencies": {
+    "@iconify-json/simple-icons": "^1.2.83",
+    "@lucide/vue": "^1.16.0",
+    "@nuxt/content": "^3.14.0",
+    "@nuxt/ui": "^4.8.0",
+    "@nuxtjs/color-mode": "^4.0.0",
+    "better-sqlite3": "^12.0.0",
+    "nuxt": "^4.4.6",
+    "nuxt-lucide-icons": "^2.1.0"
+  }
+}

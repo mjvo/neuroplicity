@@ -1,0 +1,26 @@
+[build]
+  command = "pnpm generate"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/explore/people-on-the-street"
+  to = "/people-on-the-street"
+  status = 301
+
+[[redirects]]
+  from = "/explore/understanding-neurons"
+  to = "/understanding-neurons"
+  status = 301
+
+[[redirects]]
+  from = "/explore/conducting-neuroscience-research"
+  to = "/conducting-neuroscience-research"
+  status = 301
+
+[[redirects]]
+  from = "/explore/daily-life-of-a-scientist"
+  to = "/daily-life-of-a-scientist"
+  status = 301

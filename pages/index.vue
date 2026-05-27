@@ -1,0 +1,3 @@
+<template>
+  <ArchivePage path="/" />
+</template>
